@@ -43,7 +43,7 @@ To choose one of the options, enter the number corresponding to it. i.e. enter 3
 and will randomly make all the decisions that the player needs to make while keeping
 track of the wins that result from switching/staying with the original choice.
 The simulation is set to run 100 times, but feel free to set
-' const int simulationCOUNT = 100; '
+``` const int simulationCOUNT = 100; ```
 to a higher number in the program in order to get a bigger sample size.
 
 Play the game to find out whether switching or staying with your original option is better :).
