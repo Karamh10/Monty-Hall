@@ -1,4 +1,4 @@
-# Welcome to the Monty Hall Program Simulator.
+# Welcome to the Monty Hall Simulator.
 -------------------------------------------------
 
 The Monty Hall Problem is a mind boggling puzzle that seems very simple when first played,
@@ -9,7 +9,7 @@ It was named after the show's original host, Monty Hall.
 At the end of the show, Monty presents the player with 3 doors. Two of which have a goat behind them, 
 while the last door has a car. Whatever is behind the door that the player ends up choosing is what they will get to take home.
 The player's task is to obviously pick the door that has the car behind it. Monty, of course, knows which door has a car behind it.
-
+```
 ---------    ---------    ---------
 |       |    |       |    |       |
 |       |    |       |    |       |
@@ -17,7 +17,7 @@ The player's task is to obviously pick the door that has the car behind it. Mont
 |       |    |       |    |       |
 |       |    |       |    |       |
 ---------    ---------    ---------
-
+```
 The game starts with the player picking one of the 3 doors.
 Since we have 3 doors, the player has a 33% chance of picking the right door.
 After Picking the first door, Monty opens one of the other two doors revealing that there is a goat behind it.
