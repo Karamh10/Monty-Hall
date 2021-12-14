@@ -1,4 +1,5 @@
-#Welcome to the Monty Hall Program Simulator.
+# Welcome to the Monty Hall Program Simulator.
+-------------------------------------------------
 
 The Monty Hall Problem is a mind boggling puzzle that seems very simple when first played,
 but presents a shocking reaction whenever the probability of its possible outcomes is presented.
@@ -17,7 +18,7 @@ The player's task is to obviously pick the door that has the car behind it. Mont
 |       |    |       |    |       |
 ---------    ---------    ---------
 
-The game starts with the player picking one of the 3 doors. Say they pick door #2.
+The game starts with the player picking one of the 3 doors.
 Since we have 3 doors, the player has a 33% chance of picking the right door.
 After Picking the first door, Monty opens one of the other two doors revealing that there is a goat behind it.
 Then he gives the player an option to either stay with their original choice or switch to the remaining third door.
@@ -42,7 +43,7 @@ To choose one of the options, enter the number corresponding to it. i.e. enter 3
 and will randomly make all the decisions that the player needs to make while keeping
 track of the wins that result from switching/staying with the original choice.
 The simulation is set to run 100 times, but feel free to set
-const int simulationCOUNT = 100;
+' const int simulationCOUNT = 100; '
 to a higher number in the program in order to get a bigger sample size.
 
 Play the game to find out whether switching or staying with your original option is better :).
